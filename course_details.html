@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    
+    <!--====== Title ======-->
+    <title>Goal Quest - Personalized Online Learning Platform</title>
+    
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+        
+    <!--====== Animate CSS ======-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+        
+    <!--====== Magnific Popup CSS ======-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        
+    <!--====== Slick CSS ======-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+        
+    <!--====== Line Icons CSS ======-->
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css">
+        
+    
+    <!--====== Style CSS ======-->
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    <link rel="stylesheet" href="assets/css/tailwind.css">
+
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+
+        <!-- Accordion component -->
+        <div class="flex flex-row items-start mt-3">
+            <div x-data={show:false}>
+                <button  @click="show=!show" class="accordion-open-target rounded px-4 py-3 text-sm focus:outline-none main-btn gradient-btn-2" type="button">
+                    Skill 1
+                </button>
+
+                <!-- Content -->
+                <div x-show="show" class="border px-4 py-3 my-2 text-gray-700">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pfgA0K4bt6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <br>
+
+                    <div class="mb-6 flex flex-row items-center    justify-between">
+                        <div class="link-wrapper flex flex-row items-center space-x-3">
+                            <p class="font-bold">OR</p>
+                            <a href="https://www.google.com/" class="main-btn gradient-btn contact-btn px-6 py-3 text-sm">Reading 1</a>
+                            <a href="https://www.google.com/" class="main-btn gradient-btn contact-btn px-6 py-3 text-sm">Reading 2</a>
+                        </div>
+    
+                        <!-- Checkbox -->
+                        <div>
+                            <label class="checkbox-wrapper cursor-pointer inline-flex items-center completed-btn px-6 py-3 text-sm">
+                                <input type="checkbox" class="form-checkbox text-white-600">
+                                <span class="ml-2">Mark as completed</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Notes -->
+                    <div class="notes-wrapper flex flex-col space-y-3 mt-2 text-gray-700">
+                        <h5 class="text-left text-xl font-bold title mt-3">Notes:</h5>
+                        <div class="flex flex-col items-end space-y-3">
+                            <textarea name="notes" id="notes" rows="10" class="border p-3"></textarea>
+                            <button class="main-btn gradient-btn ">Save Notes</button>
+                        </div>
+                    </div>
+                </div> <!-- Content Ends -->
+            </div>
+            <img src="./assets/images/check-mark.png" alt="Tick" class="mt-2 ml-2">
+        </div> <!-- Accordion Component Ends -->
+        
+        <!-- Accordion component -->
+        <div class="flex flex-row items-start mt-3">
+            <div x-data={show:false}>
+                <button  @click="show=!show" class="accordion-open-target rounded px-4 py-3 text-sm focus:outline-none main-btn gradient-btn-2" type="button">
+                    Skill 1
+                </button>
+
+                <!-- Content -->
+                <div x-show="show" class="border px-4 py-3 my-2 text-gray-700">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pfgA0K4bt6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <br>
+
+                    <div class="mb-6 flex flex-row items-center    justify-between">
+                        <div class="link-wrapper flex flex-row items-center space-x-3">
+                            <p class="font-bold">OR</p>
+                            <a href="https://www.google.com/" class="main-btn gradient-btn contact-btn px-6 py-3 text-sm">Reading 1</a>
+                            <a href="https://www.google.com/" class="main-btn gradient-btn contact-btn px-6 py-3 text-sm">Reading 2</a>
+                        </div>
+    
+                        <!-- Checkbox -->
+                        <div>
+                            <label class="checkbox-wrapper cursor-pointer inline-flex items-center completed-btn px-6 py-3 text-sm">
+                                <input type="checkbox" class="form-checkbox text-white-600">
+                                <span class="ml-2">Mark as completed</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Notes -->
+                    <div class="notes-wrapper flex flex-col space-y-3 mt-2 text-gray-700">
+                        <h5 class="text-left text-xl font-bold title mt-3">Notes:</h5>
+                        <div class="flex flex-col items-end space-y-3">
+                            <textarea name="notes" id="notes" rows="10" class="border p-3"></textarea>
+                            <button class="main-btn gradient-btn ">Save Notes</button>
+                        </div>
+                    </div>
+                </div> <!-- Content Ends -->
+            </div>
+            <img src="./assets/images/check-mark.png" alt="Tick" class="mt-2 ml-2">
+        
+        </div> <!-- Accordion Component Ends -->
+        <!-- Accordion component -->
+        <div class="flex flex-row items-start mt-3">
+            <div x-data={show:false}>
+                <button  @click="show=!show" class="accordion-open-target rounded px-4 py-3 text-sm focus:outline-none main-btn gradient-btn-2" type="button">
+                    Skill 1
+                </button>
+
+                <!-- Content -->
+                <div x-show="show" class="border px-4 py-3 my-2 text-gray-700">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pfgA0K4bt6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <br>
+
+                    <div class="mb-6 flex flex-row items-center    justify-between">
+                        <div class="link-wrapper flex flex-row items-center space-x-3">
+                            <p class="font-bold">OR</p>
+                            <a href="https://www.google.com/" class="main-btn gradient-btn contact-btn px-6 py-3 text-sm">Reading 1</a>
+                            <a href="https://www.google.com/" class="main-btn gradient-btn contact-btn px-6 py-3 text-sm">Reading 2</a>
+                        </div>
+    
+                        <!-- Checkbox -->
+                        <div>
+                            <label class="checkbox-wrapper cursor-pointer inline-flex items-center completed-btn px-6 py-3 text-sm">
+                                <input type="checkbox" class="form-checkbox text-white-600">
+                                <span class="ml-2">Mark as completed</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Notes -->
+                    <div class="notes-wrapper flex flex-col space-y-3 mt-2 text-gray-700">
+                        <h5 class="text-left text-xl font-bold title mt-3">Notes:</h5>
+                        <div class="flex flex-col items-end space-y-3">
+                            <textarea name="notes" id="notes" rows="10" class="border p-3"></textarea>
+                            <button class="main-btn gradient-btn ">Save Notes</button>
+                        </div>
+                    </div>
+                </div> <!-- Content Ends -->
+            </div>
+            <img src="./assets/images/check-mark.png" alt="Tick" class="mt-2 ml-2">
+        </div> <!-- Accordion Component Ends -->
+
+    </div>
+    
+</body>
+</html>
